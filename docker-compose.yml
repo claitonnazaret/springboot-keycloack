@@ -5,6 +5,6 @@ services:
     container_name: "keycloak-server"
     environment:
       - KEYCLOAK_USER=admin
-      - KEYCLOAK_PASSWORD=123
+      - KEYCLOAK_PASSWORD=123456
     ports:
       - "8180:8080"
